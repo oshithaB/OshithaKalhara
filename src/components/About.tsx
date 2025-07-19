@@ -33,7 +33,7 @@ const About = () => {
               <div className="relative">
                 <div className="w-80 h-80 bg-gradient-to-br from-teal-400 to-blue-600 rounded-full flex items-center justify-center overflow-hidden p-1">
                   <img
-                    src="/profilepic.png"
+                      src={`${process.env.PUBLIC_URL}/profilepic.png`}
                     alt="Profile"
                     className="w-full h-full object-cover object-center rounded-full border-4 border-white"
                   />
