@@ -8,7 +8,7 @@ const Projects = () => {
       description: 'Modern ERP system designed specifically for a solar accessories company. Built with React frontend and Node.js backend, featuring real-time data processing and intuitive user interface.',
       techStack: ['React', 'Node.js', 'MySQL', 'Express.js', 'Tailwind CSS'],
       link: '#',
-      image: process.env.PUBLIC_URL + '/powerkey.png', // use absolute path and .jpg (or .png if you have only png)
+      image: '../../public/powerkey.png', // use absolute path and .jpg (or .png if you have only png)
       type: 'ERP System'
     },
     {
@@ -16,7 +16,7 @@ const Projects = () => {
       description: 'Complete ERP solution for a roller door and machinery company built in just 3 months with a small team. Features comprehensive business management, inventory tracking, and customer relationship management.',
       techStack: ['PHP', 'Laravel', 'MySQL', 'Bootstrap', 'jQuery'],
       link: 'https://drive.google.com/file/d/1IygHGIA2xdjT2bmEPXMAO1HtvgNbWbJD/view?usp=sharing',
-       image: process.env.PUBLIC_URL + '/oricado.png', // use absolute path and .jpg (or .png if you have only png)
+      image: '../../public/oricado.png', // use absolute path and .jpg (or .png if you have only png)
       type: 'ERP System'
     },
     {
