@@ -37,7 +37,7 @@ const Hero = () => {
             
             <div className="flex space-x-4">
               <a
-                href="https://github.com/oshithakalhara"
+                href="https://github.com/oshithaB"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-800/50 hover:bg-gray-700/50 rounded-full transition-all duration-300 hover:scale-110"
@@ -45,7 +45,7 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/oshithakalhara"
+                href="https://www.linkedin.com/in/oshitha-kalhara-1b3323252/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-800/50 hover:bg-gray-700/50 rounded-full transition-all duration-300 hover:scale-110"
@@ -53,7 +53,7 @@ const Hero = () => {
                 <Linkedin size={24} />
               </a>
               <a
-                href="mailto:oshitha.kalhara@example.com"
+                href="oxxakala@gmail.com"
                 className="p-3 bg-gray-800/50 hover:bg-gray-700/50 rounded-full transition-all duration-300 hover:scale-110"
               >
                 <Mail size={24} />

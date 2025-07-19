@@ -45,7 +45,7 @@ const Contact = () => {
               
               <div className="space-y-4">
                 <a
-                  href="mailto:oshitha.kalhara@example.com"
+                  href="mailto:oxxakala@gmail.com"
                   className="flex items-center space-x-4 text-gray-300 hover:text-teal-400 transition-colors duration-200 group"
                 >
                   <div className="p-3 bg-gray-800 rounded-lg group-hover:bg-teal-500/20 transition-colors duration-200">
@@ -53,12 +53,12 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-sm text-gray-400">oshitha.kalhara@example.com</p>
+                    <p className="text-sm text-gray-400">oxxakala@gmail.com</p>
                   </div>
                 </a>
                 
                 <a
-                  href="https://github.com/oshithakalhara"
+                  href="https://github.com/oshithaB"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-4 text-gray-300 hover:text-teal-400 transition-colors duration-200 group"
@@ -73,7 +73,7 @@ const Contact = () => {
                 </a>
                 
                 <a
-                  href="https://linkedin.com/in/oshithakalhara"
+                  href="https://www.linkedin.com/in/oshitha-kalhara-1b3323252/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-4 text-gray-300 hover:text-teal-400 transition-colors duration-200 group"

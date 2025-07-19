@@ -1,5 +1,4 @@
 import React from 'react';
-import { User } from 'lucide-react';
 
 const About = () => {
   return (
@@ -32,8 +31,12 @@ const About = () => {
             
             <div className="flex justify-center">
               <div className="relative">
-                <div className="w-80 h-80 bg-gradient-to-br from-teal-400 to-blue-600 rounded-full flex items-center justify-center">
-                  <User size={120} className="text-white" />
+                <div className="w-80 h-80 bg-gradient-to-br from-teal-400 to-blue-600 rounded-full flex items-center justify-center overflow-hidden p-1">
+                  <img
+                    src="/profilepic.png"
+                    alt="Profile"
+                    className="w-full h-full object-cover object-center rounded-full border-4 border-white"
+                  />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-br from-teal-400/20 to-blue-600/20 rounded-full animate-pulse"></div>
               </div>
