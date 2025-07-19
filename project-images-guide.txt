@@ -1,0 +1,52 @@
+PROJECT IMAGES GUIDE FOR OSHITHA KALHARA'S PORTFOLIO
+========================================================
+
+REQUIRED PROJECT IMAGES:
+
+1. oricado-erp.jpg
+   - ERP system dashboard or interface for Oricado & Riyon
+   - Suggested dimensions: 800x600px or 1200x800px
+   - Should show business management interface, tables, or dashboard
+
+2. powerkey-erp.jpg
+   - Modern React-based ERP interface for PowerKey solar accessories
+   - Suggested dimensions: 800x600px or 1200x800px
+   - Should show clean, modern UI with solar/energy theme colors
+
+3. meeting-scheduler.jpg
+   - Mobile app interface or mockup for the meeting scheduler
+   - Suggested dimensions: 600x800px (mobile portrait) or 800x600px
+   - Should show calendar, meeting interface, or mobile app screens
+
+INSTRUCTIONS FOR SETUP:
+=======================
+
+1. Create these three image files with the exact names listed above
+2. Place them in the 'public' folder of your project
+3. Update the image references in the Projects component:
+   - Change `image: 'oricado-erp.jpg'` to the actual image path
+   - Change `image: 'powerkey-erp.jpg'` to the actual image path  
+   - Change `image: 'meeting-scheduler.jpg'` to the actual image path
+
+4. If you want to use the images, update the Projects.tsx file:
+   - Replace the gradient placeholder divs with:
+     <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
+
+ALTERNATIVE OPTIONS:
+===================
+
+If you don't have project images available:
+- Keep the current gradient placeholders with project initials
+- Use stock photos from Unsplash/Pexels related to:
+  - Business dashboards for ERP projects
+  - Mobile app interfaces for the mobile project
+- Create simple mockups using design tools like Figma or Canva
+
+EXTERNAL LINKS:
+==============
+
+Remember to update the project links in Projects.tsx:
+- Replace '#' with actual project URLs, GitHub repositories, or live demos
+- If projects are private/confidential, consider creating demo videos or case studies
+
+The current design works well with or without actual project images, using beautiful gradient placeholders as fallbacks.
